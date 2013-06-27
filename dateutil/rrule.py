@@ -233,7 +233,7 @@ class rrulebase(object):
 class rrule(rrulebase):
     _bysecond_internal = False
     _byminute_internal = False
-    _byhour = False
+    _byhour_internal = False
     _bymonth_internal = False
     _bymonthday_internal = False
     _byweekday_internal = False
