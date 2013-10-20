@@ -14,7 +14,7 @@ if isfile("MANIFEST"):
 
 TOPDIR = os.path.dirname(__file__) or "."
 VERSION = re.search('__version__ = "([^"]+)"',
-                    codecs.open(TOPDIR + "/dateutil/__init__.py", encoding='utf-8').read()).group(1) + '-patched'
+                    codecs.open(TOPDIR + "/dateutil/__init__.py", encoding='utf-8').read()).group(1)
 
 
 setup(name="dateutil",
