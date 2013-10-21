@@ -17,7 +17,7 @@ VERSION = re.search('__version__ = "([^"]+)"',
                     codecs.open(TOPDIR + "/dateutil/__init__.py", encoding='utf-8').read()).group(1)
 
 
-setup(name="dateutil",
+setup(name="python-dateutil",
       version = VERSION,
       description = "Extensions to the standard Python datetime module",
       author = "Tomi Pievilaeinen",
